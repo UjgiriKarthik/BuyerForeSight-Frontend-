@@ -1,0 +1,60 @@
+body {
+  background: #070b14;
+  color: #e8edf5;
+  font-family: monospace;
+}
+
+/* TABLE */
+.table-wrap {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* HEADER */
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1.5fr 2fr 50px;
+  padding: 14px 20px;
+  background: rgba(255,255,255,0.05);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #64748b;
+}
+
+/* ROW */
+.user-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1.5fr 2fr 50px;
+  padding: 16px 20px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.user-row:hover {
+  background: rgba(0,229,255,0.05);
+}
+
+/* CELLS */
+.user-name {
+  font-weight: bold;
+}
+
+.cell-email {
+  color: #94a3b8;
+}
+
+.cell-phone {
+  color: #94a3b8;
+}
+
+.company {
+  color: #94a3b8;
+}
+
+.arrow {
+  text-align: right;
+  color: #00e5ff;
+}
